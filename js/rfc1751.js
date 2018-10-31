@@ -264,7 +264,7 @@ function _extract(key, start, length) {
     k = key.substring(start, start+length);
     var acc = 0;
     for (var i = 0; i < k.length; i++) {
-        acc = acc * 2 + k.charCodeAt(i) - 48;
+        acc = acc * 2 + k.charCodeAt(i) - 64;
     }
     return acc;
 }
