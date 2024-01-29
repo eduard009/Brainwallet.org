@@ -10,7 +10,7 @@
 
     var PUBLIC_KEY_VERSION = 0;
     var PRIVATE_KEY_VERSION = 0x80;
-    var ADDRESS_URL_PREFIX = 'http://blockchain.info'
+    var ADDRESS_URL_PREFIX = 'https://explorer.btc.com/btc/'
 
     function parseBase58Check(address) {
         var bytes = Bitcoin.Base58.decode(address);
@@ -215,7 +215,7 @@
         else if (ADDRESS_URL_PREFIX.indexOf('chainbrowser.com')>=0 )
           return ADDRESS_URL_PREFIX+'/address/'+addr+'/';
         else
-          return ADDRESS_URL_PREFIX+'/address/'+addr;
+          return ADDRESS_URL_PREFIX+'/search/'+addr;
     }
 
     function gen_update() {
