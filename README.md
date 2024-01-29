@@ -14,4 +14,4 @@ Notable features
 * Signing and verifying messages with bitcoin address
 * Litecoin support
 
-Donation 1BinanceCUpDhoZCm6fNG951usvmFVqiuD
+Donation 1Cm8Rc8shDi5jgo3esty3EbXS6RXxPTAbs
